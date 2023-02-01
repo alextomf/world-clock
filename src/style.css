@@ -1,5 +1,6 @@
 body {
-  font-family: sans-serif;
+  font-family: Roboto Mono;
+  color: #13131a;
 }
 
 h1 {
@@ -14,11 +15,13 @@ h2 {
 }
 
 a {
+  color: #13131a;
+  font-weight: 600;
   text-decoration: none;
 }
 
 a:hover {
-  color: #9696a2;
+  color: #585858;
 }
 
 select {
@@ -33,6 +36,7 @@ footer {
   max-width: 250px;
   margin: 0px auto;
   margin-top: 10px;
+  padding: 5px;
   background-color: rgba(255, 255, 255, 0.7);
   border-radius: 5px;
   text-align: center;
