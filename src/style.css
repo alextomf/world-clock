@@ -30,12 +30,13 @@ footer {
   margin-top: 10px;
   background-color: rgba(255, 255, 255, 0.7);
   border-radius: 5px;
+  text-align: center;
 }
 .world-clock {
   /* .container { */
   max-width: 600px;
-  margin: 50px auto;
-  padding: 30px;
+  margin: 10px auto;
+  padding: 15px;
   border: 1px solid #9696a2;
   background-color: rgba(226, 226, 226, 0.6);
   border-radius: 5px;
@@ -43,7 +44,7 @@ footer {
 }
 .city {
   display: flex;
-  margin: 20px 0;
+  margin: 10px 0;
   justify-content: space-between;
   padding: 20px 0;
   border-bottom: 1px groove rgba(0, 0, 0, 0.2);
