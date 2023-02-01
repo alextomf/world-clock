@@ -1,7 +1,4 @@
 body {
-  background-image: url(../media/clocks.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
   font-family: sans-serif;
 }
 
@@ -108,5 +105,6 @@ footer {
   body {
     background: url("../media/clocks.jpg");
     background-size: cover;
+    background-repeat: no-repeat;
   }
 }
