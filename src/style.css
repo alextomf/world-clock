@@ -21,7 +21,7 @@ a {
 }
 
 a:hover {
-color: #9696a2;
+  color: #9696a2;
 }
 
 select {
@@ -77,36 +77,36 @@ footer {
 }
 
 #videoBG {
-position: fixed; 
-right: 0; 
-bottom: 0;
-min-width: 100%; 
-min-height: 100%;
-width: auto; 
-height: auto; 
-z-index: -100;
-background-size: cover; 
-overflow: hidden;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  background-size: cover;
+  overflow: hidden;
 }
 
 @media (min-aspect-ratio: 16/9) {
-    #videoBG {
-        width:100%;
-        height: auto;
-    }
+  #videoBG {
+    width: 100%;
+    height: auto;
+  }
 }
 @media (max-aspect-ratio: 16/9) {
-    #videoBG { 
-        width:auto;
-        height: 100%;
-    }
+  #videoBG {
+    width: auto;
+    height: 100%;
+  }
 }
 @media (max-width: 767px) {
-    #videoBG {
-        display: none;
-    }
-    body {
-        background: url("../media/clocks.jpg");
-        background-size: cover;
-    }
+  #videoBG {
+    display: none;
+  }
+  body {
+    background: url("../media/clocks.jpg");
+    background-size: cover;
+  }
 }
