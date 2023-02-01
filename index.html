@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="src/style.css" />
+    <link rel="icon" type="image/png" href="clock-icon.png" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.40/moment-timezone-with-data-1970-2030.min.js"></script>
     <title>World Clock</title>
@@ -17,9 +18,12 @@
           <option value="">Select a city</option>
           <option value="current">Current location time</option>
           <option value="America/New_York">New York</option>
-          <option value="Africa/Cairo">Cairo</option>
+          <option value="America/Buenos_Aires">Buenos Aires</option>
+          <option value="Asia/Dubai">Dubai</option>
+          <option value="Asia/Dili">New Delhi</option>
           <option value="Asia/Bangkok">Bangkok</option>
-          <option value="Europe/Moscow">Moscow</option>
+          <option value="Asia/Tokyo">Tokyo</option>
+          <option value="Pacific/Fiji">Fiji</option>
         </select>
 
         <div id="cities">
@@ -46,12 +50,15 @@
           </div>
         </div>
         <video id="videoBG" playsinline autoplay muted loop>
-        <source src="media/coverr-watch-timelapse-3561-1080p.mp4" type="video/mp4">
+          <source
+            src="media/coverr-watch-timelapse-3561-1080p.mp4"
+            type="video/mp4"
+          />
         </video>
       </div>
       <footer>
         <a href="https://github.com/alextomf/">Designed & coded</a> by
-          <a href="https://www.linkedin.com/in/alextomf/">Alex Tom </a>
+        <a href="https://www.linkedin.com/in/alextomf/">Alex Tom </a>
       </footer>
     </div>
     <script src="src/main.js"></script>
