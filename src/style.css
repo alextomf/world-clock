@@ -1,5 +1,5 @@
 body {
-  font-family: Roboto Mono;
+  font-family: "Montserrat", sans-serif;
   color: #13131a;
 }
 
@@ -37,7 +37,7 @@ footer {
   margin: 0px auto;
   margin-top: 10px;
   padding: 5px;
-  background-color: rgba(255, 255, 255, 0.7);
+  background-color: rgba(226, 226, 226, 0.6);
   border-radius: 5px;
   text-align: center;
 }
